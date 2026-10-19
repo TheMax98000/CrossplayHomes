@@ -9,8 +9,8 @@ On a cross-play server, a Bedrock player on a phone struggles to type `/tpa Name
 the `[Accept]` of a chat message: Geyser does not forward chat clicks. With CrossplayHomes, a Bedrock player does
 everything from menus, without typing a command argument.
 
-> **Status:** version 1.0.0 is finished and tested, not released yet. Free edition: SpigotMC, CurseForge and
-> [Releases](../../releases/latest); full edition: Payhip (links when published).
+> **Status:** version 1.0.0 released: free edition in [Releases](../../releases/latest) (SpigotMC and CurseForge
+> soon), full edition on [Payhip](https://payhip.com/b/5STcL).
 
 ## Editions
 
