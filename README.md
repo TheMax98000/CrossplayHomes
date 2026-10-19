@@ -1,3 +1,5 @@
+<img src="docs/logo.png" alt="CrossplayHomes" width="160" align="right">
+
 # CrossplayHomes
 
 Homes, teleport requests, warps and `/back` for **cross-play servers** (Paper or Folia with Geyser/Floodgate), with
