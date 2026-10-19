@@ -28,7 +28,7 @@ everything from menus, without typing a command argument.
 
 - **Bedrock players** (detected by Floodgate) get native Bedrock forms: list of homes, "New home here", rename and
   delete, a three-button form for a teleport request (Accept, Deny, Block this player), the list of online players for
-  `/tpa` without a name.
+  `/tpa` without a name (with "Blocked players" to unblock someone). Buttons show the icon of each home and warp.
 - **Java players** get chest menus (or clickable chat lines, `menus.java: chat`), and `[Accept]` `[Deny]` `[Block]`
   buttons in chat for requests.
 - A request that arrives while a Bedrock player has a chest open waits until the chest is closed (Bedrock does not
@@ -39,9 +39,9 @@ everything from menus, without typing a command argument.
 | Command | What it does | Permission (default) |
 |---|---|---|
 | `/sethome [name]`, `/home [name]`, `/delhome <name>`, `/homes` | homes (`/homes` opens the menu) | `crossplayhomes.home` (everyone) |
-| `/tpa [player]`, `/tpahere [player]` | send a request (no name: menu of online players) | `crossplayhomes.tpa`, `crossplayhomes.tpahere` (everyone) |
+| `/tpa [player]`, `/tpahere [player]` | send a request (no name: menu of online players, requests received, blocked players) | `crossplayhomes.tpa`, `crossplayhomes.tpahere` (everyone) |
 | `/tpaccept [player]`, `/tpdeny [player]`, `/tpacancel [player]` | answer or cancel a request | `crossplayhomes.tpa` |
-| `/tpatoggle` | refuse all requests, and unblock players | `crossplayhomes.tpa` |
+| `/tpatoggle` | refuse all requests (again: accept them) | `crossplayhomes.tpa` |
 | `/warp [name]`, `/warps` | warps (full edition) | `crossplayhomes.warp` (everyone) |
 | `/setwarp [name]`, `/delwarp <name>` | create (held item = icon) or delete a warp | `crossplayhomes.setwarp` (op) |
 | `/back` | back to where you were before your last teleport, or where you died (full edition) | `crossplayhomes.back`, `crossplayhomes.back.ondeath` (everyone) |
