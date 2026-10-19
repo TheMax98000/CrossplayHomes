@@ -38,7 +38,7 @@ everything from menus, without typing a command argument.
 
 | Command | What it does | Permission (default) |
 |---|---|---|
-| `/sethome [name]`, `/home [name]`, `/delhome <name>`, `/homes` | homes (`/homes` opens the menu) | `crossplayhomes.home` (everyone) |
+| `/sethome [name]`, `/home [name]`, `/delhome <name>`, `/homes` | homes (`/homes` opens the menu; full edition: the item in your hand becomes the icon) | `crossplayhomes.home` (everyone) |
 | `/tpa [player]`, `/tpahere [player]` | send a request (no name: menu of online players, requests received, blocked players) | `crossplayhomes.tpa`, `crossplayhomes.tpahere` (everyone) |
 | `/tpaccept [player]`, `/tpdeny [player]`, `/tpacancel [player]` | answer or cancel a request | `crossplayhomes.tpa` |
 | `/tpatoggle` | refuse all requests (again: accept them) | `crossplayhomes.tpa` |
